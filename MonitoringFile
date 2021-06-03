@@ -27,7 +27,7 @@ def sns_Alert(dName, eDays, sslStatus):
     print sslStat
     print snsSub
     response = client.publish(
-    TargetArn="arn:aws:sns:us-east-1:954238871950:test",
+    TargetArn="#",
     Message= sslStat,
     Subject= snsSub
     )
